@@ -1,0 +1,28 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "bin/": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/*~": true
+  },
+  "wpilib.selectDefaultSimulateExtension": true,
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    "./src",
+    "-p",
+    "*test.py"
+  ],
+  "python.testing.pytestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.unittestEnabled": true,
+  "python.pythonPath": "C:\\Users\\22lim\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+}
